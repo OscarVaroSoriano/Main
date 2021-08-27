@@ -18,11 +18,11 @@ nav a{
 }
 nav a:hover{
     background-color: #14aa46;
-    color: black;
+    color: #000000;
 }
-nav a.active{
-    background-color: #14aa46;
-    color: black;
+nav a:active{
+    background-color: #128b3a;
+    color: #000000;
 }
 
 header{
