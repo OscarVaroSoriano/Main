@@ -4,7 +4,7 @@
   }
 body{
     font-family: Helvetica;
-    background-color: rgb(28, 30, 37);
+    background-color: #1c1e25;
     color: #f2f2f2;
 }
 p{
@@ -13,7 +13,7 @@ p{
 nav{
     width: 100%;
     position: fixed;
-    background-color: rgb(65, 57, 57);
+    background-color: #413939;
     overflow: hidden;
     z-index: 2;
 }
@@ -43,6 +43,9 @@ nav a:active{
     background-color: #17a045;
 }
 #content{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     padding-top: 1em;
     border:3px solid red;
@@ -52,10 +55,11 @@ header{
     padding-top: 3em;
     font-size: 2em;
     color: #14aa46;
+    letter-spacing: 0.425em;
 }
-section{
-
-}
-article{
-    
+hr{
+    display: inline-block;
+    width: 3em;
+    height: 0.100em;
+    background-color: rgb(255, 255, 255);
 }
